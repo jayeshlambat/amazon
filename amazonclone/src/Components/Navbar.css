@@ -1,0 +1,22 @@
+.Navbar {
+    background-color: #29394a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 4px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #29394a;
+    border-radius: 4px;
+}
+
+.Navbar a:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
